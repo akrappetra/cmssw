@@ -58,4 +58,10 @@
   <class name="edm::Wrapper<FTLTrackingRecHitCollection>"/>
 
   <enum name="FTLSeverityLevel::SeverityLevel"/> 
+
+  <!-- nadodano: -->
+  <class name="FTLSuperCluster"/>
+  <class name="std::vector<FTLSuperCluster>"/>
+  <class name="edm::Wrapper<std::vector<FTLSuperCluster>>"/>
+  <class name="edm::Wrapper<FTLSuperCluster>"/>
 </lcgdict>

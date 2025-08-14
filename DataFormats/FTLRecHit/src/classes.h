@@ -1,6 +1,7 @@
 #include "DataFormats/FTLRecHit/interface/FTLUncalibratedRecHit.h"
 #include "DataFormats/FTLRecHit/interface/FTLRecHit.h"
 #include "DataFormats/FTLRecHit/interface/FTLRecHitCollections.h"
+#include "DataFormats/FTLRecHit/interface/FTLSuperCluster.h" // nadodano
 
 #include "DataFormats/FTLRecHit/interface/FTLCluster.h"
 #include "DataFormats/FTLRecHit/interface/FTLClusterCollections.h"
