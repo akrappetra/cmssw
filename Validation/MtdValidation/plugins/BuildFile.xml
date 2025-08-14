@@ -31,3 +31,12 @@
 <use name="fastjet"/>
 <use name="SimFastTiming/FastTimingCommon"/>
 <flags EDM_PLUGIN="1"/>
+<library file="SuperClusterValidationExample.cc" name="ValidationMtdValidationPlugins">
+  <use name="FWCore/Framework"/>
+  <use name="FWCore/ParameterSet"/>
+  <use name="CommonTools/UtilAlgos"/>
+  <use name="DataFormats/FTLRecHit"/>
+  <use name="DataFormats/ForwardDetId"/>
+  <use name="root"/>
+  <flags EDM_PLUGIN="1"/>
+</library>
