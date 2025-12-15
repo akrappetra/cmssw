@@ -12,11 +12,11 @@
 class FTLMergedCluster {
 public:
     // Default constructor
-    constexpr FTLMergedCluster() : id_(0), energy_(0.0), time_(0.0), timeError_(0.0), x_(0.0), y_(0.0), clusterIds_() {}
+    constexpr FTLMergedCluster() : id_(0), energy_(0.0), time_(0.0), timeError_(0.0), x_(0.0), y_(0.0), xError_(0.0), yError_(0.0),clusterIds_() {}
     
     // Constructor
-    FTLMergedCluster(DetId id, float energy, float time, float timeError, float x, float y, const std::vector<DetId>& clusterIds)
-        : id_(id), energy_(energy), time_(time), timeError_(timeError), x_(x), y_(y), clusterIds_(clusterIds) {}
+    FTLMergedCluster(DetId id, float energy, float time, float timeError, float x, float y, float xError, float yError, const std::vector<DetId>& clusterIds)
+        : id_(id), energy_(energy), time_(time), timeError_(timeError), x_(x), y_(y), xError_(xError), yError_(yError), clusterIds_(clusterIds) {}
 
     // getteri
     DetId id() const { return id_; }
@@ -25,6 +25,8 @@ public:
     float timeError() const { return timeError_; }
     float x() const { return x_; }
     float y() const { return y_; }
+    float xError() const { return xError_; }
+    float yError() const { return yError_; }
     const std::vector<DetId>& clusterIds() const { return clusterIds_; }
     size_t nClusters() const { return clusterIds_.size(); }    
 
@@ -35,6 +37,8 @@ private:
     float timeError_;
     float x_;
     float y_;
+    float xError_;
+    float yError_;
 
     std::vector<DetId> clusterIds_;
 };

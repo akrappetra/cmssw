@@ -30,9 +30,13 @@ public:
   int dimension() const final { return 2; }
 
   //specific timing stuff
-  float energy() const { return omniCluster().mtdCluster().energy(); }
+  /*float energy() const { return omniCluster().mtdCluster().energy(); }
   float time() const { return omniCluster().mtdCluster().time(); }
-  float timeError() const { return omniCluster().mtdCluster().timeError(); }
+  float timeError() const { return omniCluster().mtdCluster().timeError(); }*/
+
+  float energy() const { return omniCluster().mtdMergedCluster().energy(); }
+  float time() const { return omniCluster().mtdMergedCluster().time(); }
+  float timeError() const { return omniCluster().mtdMergedCluster().timeError(); }
 };
 
 // Instantiations and specializations for FTLRecHitRef and reco::CaloClusterPtr

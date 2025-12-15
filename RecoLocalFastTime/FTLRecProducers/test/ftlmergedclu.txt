@@ -1,0 +1,128 @@
+%MSG-w InputFileCatalog:  PoolSource:source@sourceConstruction  12-Dec-2025 16:57:27 CET pre-events
+Caught an exception while constructing a file locator in InputFileCatalog::init: An exception of category 'SiteLocalConfigService' occurred while
+   [0] edm::SiteLocalConfigService::storageDescriptionPath()
+Exception Message:
+Fail to convert path to the storage description, /eos/user/p/pakrap/SITECONF/local//../T1_IT_CNAF/storage.json, to the canonical absolute path. Path exists?
+Skip this catalog
+%MSG
+%MSG-w InputFileCatalog:  PoolSource:source@sourceConstruction  12-Dec-2025 16:57:27 CET pre-events
+Caught an exception while constructing a file locator in InputFileCatalog::init: An exception of category 'SiteLocalConfigService' occurred while
+   [0] edm::SiteLocalConfigService::storageDescriptionPath()
+Exception Message:
+Fail to convert path to the storage description, /eos/user/p/pakrap/SITECONF/local//../T1_IT_CNAF/storage.json, to the canonical absolute path. Path exists?
+Skip this catalog
+%MSG
+12-Dec-2025 16:57:27 CET  Initiating request to open file root://eosuser.cern.ch//eos/user/p/pakrap/MTD/CMSSW_MC_CHECKS/src/RecoLocalFastTime/FTLClusterizer/output.root
+%MSG-f XrdAdaptor:  file_open 12-Dec-2025 16:57:28 CET pre-events
+Opened a file at URL root://eosfst-titania.cern.ch:1103//eos/user/p/pakrap/MTD/CMSSW_MC_CHECKS/src/RecoLocalFastTime/FTLClusterizer/output.root?cap.msg=pDpQboMkEJOG8LqcrigOug42Y05otF7mP9nncQO6XykO20x3ZYsdKefCi5bwFxPaloFDOESZBKx8g6g51AiPqZlkw2bynH6R/hRd64ZI7a15aC/WlQ1JP2fUxe7k+iKJcu4d6dEi8UnEfRnkR8VxQLo1eAG6S6s85BRE5g290ypXu7S0PkUC9BGjqESq2U8vk++oxpTBHfRi4oeHQXuMNLc7gRtmLR+oh+782QiwIJVOnHe5nDXbxNQkllggIn7hx1jS0GmxiX1nGrSco2TKG0fG1kdaiD4k9dzKENjKuwzLo5T6BoV/B6GifUSi5tGXrqFlx1FepSu73Lfbp+un/lujGcClUX4Fk4M5lQg2l8F6OnLtPIlVcrPjo5USsM2o63k4hsbPLQP1eB3p0qVBxcDjIdUmQ6rtKOsJ0fKLz1caHX+c/zeM0DlHIKEjsmd36a7BCwcp6ow24od6ZSk4ZracgyQGotwknbxB9yIqsntt4fuB5eFYZGD6q6rS26nU8Uz6VCEvR5CWjCk6oK6P+DSX9NyS28quejnP6OQC9gaOus4xZ2yn5uvyk/VLB/N0Hy50r5p07O90XrsDVRwpz5ZujJbwmli5TY0tmyvVZEVx18cWG9Dy5sDVsrt5Pasm+pPKLVC30VZDYbkSSwqwikeR+Si1O/W01gV+cJDa00c=&cap.sym=iTsgy7ETs198FmnCNx0S5gtD3ek=&eos.clientinfo=zbase64:MDAwMDAwNmF4nBXIUQqAIBBF0a20gcSICIRZjOkbGgiVcSLaffl37q0NJaiRd9s+SQ3HQ1J4qKcTmfygvQ103MxQ5DGaSqUMjvdlo/8timSE2rnbbGKxSHQJWlw6w7L49QPXByXB&mgm.blockchecksum=ignore&mgm.id=cbc3f2c8&mgm.logid=42950e32-d773-11f0-8503-a4bf01796530&mgm.mtime=1765551216&mgm.replicahead=0&mgm.replicaindex=0&xrdcl.requuid=9974d541-799f-4c1d-830d-deeffd3d68cd
+%MSG
+12-Dec-2025 16:58:05 CET  Successfully opened file root://eosuser.cern.ch//eos/user/p/pakrap/MTD/CMSSW_MC_CHECKS/src/RecoLocalFastTime/FTLClusterizer/output.root
+%MSG-f XrdAdaptor:  (NoModuleName) 12-Dec-2025 16:58:06 CET pre-events
+Opened a file at URL root://st-h04-echidna.cern.ch:1102//eos/user/p/pakrap/MTD/CMSSW_MC_CHECKS/src/RecoLocalFastTime/FTLClusterizer/output.root?cap.msg=pDpQboMkEJOG8LqcrigOug42Y05otF7mP9nncQO6XykO20x3ZYsdKefCi5bwFxPaloFDOESZBKx8g6g51AiPqZlkw2bynH6R/hRd64ZI7a15aC/WlQ1JP2fUxe7k+iKJcu4d6dEi8UnEfRnkR8VxQLo1eAG6S6s85BRE5g290ypXu7S0PkUC9BGjqESq2U8vk++oxpTBHfRi4oeHQXuMNLc7gRtmLR+oh+782QiwIJVOnHe5nDXbxNQkllggIn7hx1jS0GmxiX1nGrSco2TKG0fG1kdaiD4k9dzKENjKuwzLo5T6BoV/B6GifUSi5tGXrqFlx1FepSu73Lfbp+un/lujGcClUX4Fk4M5lQg2l8F6OnLtPIlVcrPjo5USsM2o63k4hsbPLQP1eB3p0qVBxcDjIdUmQ6rtKOsJ0fKLz1caHX+c/zeM0DlHIKEjsmd36a7BCwcp6ow24od6ZSk4ZracgyQGotwk1SC77NnTBNJaeUGSh6aqS5ELXTFzE1YRLo3daw4UGrlpouVPfw/4UpJMzoPdwjegVXaVuOwXfbOWG0d6J2o8X5yVE0nNp4i1RI6kbERMe6bmMXfOju7Tc8XrjN8ntnNpdAPZcA318sia91dI1Jg+WARig1565tEvXez9zGV0kozU3MvpFDnb5KYe5NSaQh7YhJi8y5Vx4aXrYOvvPyKUmx12Y+T06fpW&cap.sym=iTsgy7ETs198FmnCNx0S5gtD3ek=&eos.clientinfo=zbase64:MDAwMDAwNmF4nBXIUQqAIBBF0a20gUQjCIRZTI1PHAiVaSLaffl37m0dNapRcH6bpMXjIal56OKCRH7Q3g467pyhSGN0lUYJeb9PG/1vUbDRZXPx6wwukuruGFodlxiCXz7DFiTq&mgm.blockchecksum=ignore&mgm.id=cbc3f2c8&mgm.logid=58d35582-d773-11f0-b357-a4bf01796530&mgm.mtime=1765551216&mgm.replicahead=1&mgm.replicaindex=1&tried=eosfst-titania.cern.ch&triedrc=resel&xrdcl.requuid=a6e9ce02-14e8-4fe8-a998-3a33f016842f
+%MSG
+Begin processing the 1st record. Run 1, Event 1, LumiSection 1 on stream 0 at 12-Dec-2025 16:58:07.710 CET
+[DEBUG INLINE] getParameters called: id=1653611344 xError=0.6
+[DEBUG INLINE] getParameters called: id=1653617488 xError=0.327806
+[DEBUG INLINE] getParameters called: id=1653690192 xError=0.493224
+[DEBUG INLINE] getParameters called: id=1658858320 xError=0.44973
+[SINGLE]DetId 1653611344  nClusters=1  pos = (-1.04839,1.75999)  err_xx=0.36  time=18.467  timeErr=0.0694368  energy=1.10779
+[SINGLE]DetId 1653617488  nClusters=1  pos = (-0.54598,-0.647614)  err_xx=0.107457  time=7.57656  timeErr=0.0224467  energy=12.8815
+[SINGLE]DetId 1653690192  nClusters=1  pos = (-1.46491,0.0948639)  err_xx=0.24327  time=8.24443  timeErr=0.0213629  energy=16.9556
+[SINGLE]DetId 1658858320  nClusters=1  pos = (1.49893,0.696259)  err_xx=0.202257  time=7.59435  timeErr=0.0279447  energy=8.67004
+MTDTrackingRecHitDump: total hits processed = 4  (Single-cluster: 4, Multi-cluster: 0)
+Begin processing the 2nd record. Run 1, Event 2, LumiSection 1 on stream 0 at 12-Dec-2025 16:58:10.887 CET
+%MSG-w MTDTrackingRecHitProducer:  MTDTrackingRecHitProducer:mtdTrackingRecHits  12-Dec-2025 16:58:10 CET Run: 1 Event: 2
+MTDTrackingRecHitProducer: Invalid collection
+%MSG
+MTDTrackingRecHitDump: total hits processed = 0  (Single-cluster: 0, Multi-cluster: 0)
+Begin processing the 3rd record. Run 1, Event 3, LumiSection 1 on stream 0 at 12-Dec-2025 16:58:10.894 CET
+%MSG-w MTDTrackingRecHitProducer:  MTDTrackingRecHitProducer:mtdTrackingRecHits  12-Dec-2025 16:58:10 CET Run: 1 Event: 3
+MTDTrackingRecHitProducer: Invalid collection
+%MSG
+MTDTrackingRecHitDump: total hits processed = 0  (Single-cluster: 0, Multi-cluster: 0)
+Begin processing the 4th record. Run 1, Event 4, LumiSection 1 on stream 0 at 12-Dec-2025 16:58:10.901 CET
+[DEBUG INLINE] getParameters called: id=1652689744 xError=0.347006
+[DEBUG INLINE] getParameters called: id=1658723152 xError=0.347433
+[SINGLE]DetId 1652689744  nClusters=1  pos = (2.01684,-0.493271)  err_xx=0.120413  time=6.9821  timeErr=0.0272441  energy=8.38623
+[SINGLE]DetId 1658723152  nClusters=1  pos = (1.1564,1.44733)  err_xx=0.12071  time=6.91164  timeErr=0.0272224  energy=8.40454
+MTDTrackingRecHitDump: total hits processed = 2  (Single-cluster: 2, Multi-cluster: 0)
+Begin processing the 5th record. Run 1, Event 5, LumiSection 1 on stream 0 at 12-Dec-2025 16:58:10.907 CET
+[DEBUG INLINE] getParameters called: id=1653296016 xError=0.6
+[DEBUG INLINE] getParameters called: id=1654087312 xError=0.6
+[SINGLE]DetId 1653296016  nClusters=1  pos = (-0.807198,0.800003)  err_xx=0.36  time=17.2896  timeErr=0.0344382  energy=5.94177
+[SINGLE]DetId 1654087312  nClusters=1  pos = (1.31817,1.75999)  err_xx=0.36  time=15.3216  timeErr=0.0534949  energy=2.06909
+MTDTrackingRecHitDump: total hits processed = 2  (Single-cluster: 2, Multi-cluster: 0)
+Begin processing the 6th record. Run 1, Event 6, LumiSection 1 on stream 0 at 12-Dec-2025 16:58:10.911 CET
+%MSG-w MTDTrackingRecHitProducer:  MTDTrackingRecHitProducer:mtdTrackingRecHits  12-Dec-2025 16:58:10 CET Run: 1 Event: 6
+MTDTrackingRecHitProducer: Invalid collection
+%MSG
+MTDTrackingRecHitDump: total hits processed = 0  (Single-cluster: 0, Multi-cluster: 0)
+Begin processing the 7th record. Run 1, Event 7, LumiSection 1 on stream 0 at 12-Dec-2025 16:58:10.919 CET
+[DEBUG INLINE] getParameters called: id=1658020240 xError=0.6
+[SINGLE]DetId 1658020240  nClusters=1  pos = (-1.59678,2.08)  err_xx=0.36  time=4.39335  timeErr=0.0465086  energy=2.89307
+MTDTrackingRecHitDump: total hits processed = 1  (Single-cluster: 1, Multi-cluster: 0)
+Begin processing the 8th record. Run 1, Event 8, LumiSection 1 on stream 0 at 12-Dec-2025 16:58:10.923 CET
+[DEBUG INLINE] getParameters called: id=1652951376 xError=0.50594
+[DEBUG INLINE] getParameters called: id=1653083472 xError=0.6
+[DEBUG INLINE] getParameters called: id=1653086544 xError=0.6
+[DEBUG INLINE] getParameters called: id=1653086544 xError=0.431601
+[DEBUG INLINE] getParameters called: id=1653086544 xError=0.6
+[DEBUG INLINE] getParameters called: id=1653150032 xError=0.465091
+[DEBUG INLINE] getParameters called: id=1653150032 xError=0.6
+[DEBUG INLINE] getParameters called: id=1653151056 xError=0.6
+[DEBUG INLINE] getParameters called: id=1657277776 xError=0.6
+[DEBUG INLINE] getParameters called: id=1657283920 xError=0.327162
+[DEBUG INLINE] getParameters called: id=1658915152 xError=0.6
+[SINGLE]DetId 1652951376  nClusters=1  pos = (0.322496,0.423949)  err_xx=0.255976  time=6.24467  timeErr=0.0336783  energy=5.74951
+[SINGLE]DetId 1653083472  nClusters=1  pos = (1.75498,2.4)  err_xx=0.36  time=4.88874  timeErr=0.0430619  energy=3.479
+[SINGLE]DetId 1653086544  nClusters=1  pos = (-1.53875,-2.08)  err_xx=0.36  time=4.68274  timeErr=0.0314599  energy=7.37915
+[SINGLE]DetId 1653086544  nClusters=1  pos = (-0.59627,-1.30988)  err_xx=0.186279  time=4.7236  timeErr=0.0162223  energy=31.5674
+[SINGLE]DetId 1653086544  nClusters=1  pos = (0.074453,-0.16)  err_xx=0.36  time=4.91716  timeErr=0.0503739  energy=2.38953
+[SINGLE]DetId 1653150032  nClusters=1  pos = (2.22028,-0.248139)  err_xx=0.216309  time=4.61258  timeErr=0.0204676  energy=18.4479
+[SINGLE]DetId 1653150032  nClusters=1  pos = (1.90643,2.4)  err_xx=0.36  time=4.98197  timeErr=0.0408167  energy=3.95508
+[SINGLE]DetId 1653151056  nClusters=1  pos = (1.81118,1.44)  err_xx=0.36  time=4.40245  timeErr=0.0318086  energy=7.18689
+[SINGLE]DetId 1657277776  nClusters=1  pos = (-1.63301,-0.48)  err_xx=0.36  time=5.05068  timeErr=0.0333477  energy=6.41785
+[SINGLE]DetId 1657283920  nClusters=1  pos = (1.34869,-0.615645)  err_xx=0.107035  time=5.45493  timeErr=0.0220627  energy=13.4125
+[SINGLE]DetId 1658915152  nClusters=1  pos = (-2.31264,2.4)  err_xx=0.36  time=4.41198  timeErr=0.040699  energy=3.98254
+MTDTrackingRecHitDump: total hits processed = 11  (Single-cluster: 11, Multi-cluster: 0)
+Begin processing the 9th record. Run 1, Event 9, LumiSection 1 on stream 0 at 12-Dec-2025 16:58:10.929 CET
+[DEBUG INLINE] getParameters called: id=1652709200 xError=0.453272
+[DEBUG INLINE] getParameters called: id=1652771728 xError=0.6
+[DEBUG INLINE] getParameters called: id=1652771728 xError=0.435534
+[DEBUG INLINE] getParameters called: id=1652777808 xError=0.424294
+[DEBUG INLINE] getParameters called: id=1652825936 xError=0.426481
+[DEBUG INLINE] getParameters called: id=1652825936 xError=0.505364
+[DEBUG INLINE] getParameters called: id=1652826000 xError=0.426746
+[DEBUG INLINE] getParameters called: id=1652829072 xError=0.478785
+[DEBUG INLINE] getParameters called: id=1652843152 xError=0.424599
+[DEBUG INLINE] getParameters called: id=1652885328 xError=0.36034
+[DEBUG INLINE] getParameters called: id=1652885328 xError=0.429288
+[DEBUG INLINE] getParameters called: id=1652885328 xError=0.6
+[DEBUG INLINE] getParameters called: id=1652908944 xError=0.431351
+[DEBUG INLINE] getParameters called: id=1652961168 xError=0.455496
+[DEBUG INLINE] getParameters called: id=1652974480 xError=0.424763
+[DEBUG INLINE] getParameters called: id=1653293968 xError=0.327905
+[DEBUG INLINE] getParameters called: id=1658282832 xError=0.454225
+[SINGLE]DetId 1652709200  nClusters=1  pos = (2.73021,-1.85983)  err_xx=0.205456  time=7.84981  timeErr=0.0295969  energy=7.57141
+[SINGLE]DetId 1652771728  nClusters=1  pos = (0.953644,-1.12)  err_xx=0.36  time=9.69423  timeErr=0.0391969  energy=4.35791
+[SINGLE]DetId 1652771728  nClusters=1  pos = (-1.06523,-0.357117)  err_xx=0.18969  time=9.7594  timeErr=0.0260434  energy=10.1807
+[SINGLE]DetId 1652777808  nClusters=1  pos = (2.40973,0.3181)  err_xx=0.180025  time=8.33426  timeErr=0.0320549  energy=6.15234
+[SINGLE]DetId 1652825936  nClusters=1  pos = (0.530499,-1.58362)  err_xx=0.181886  time=7.06286  timeErr=0.0213644  energy=16.2781
+[SINGLE]DetId 1652825936  nClusters=1  pos = (0.826051,1.38354)  err_xx=0.255392  time=7.16664  timeErr=0.0284414  energy=8.61511
+[SINGLE]DetId 1652826000  nClusters=1  pos = (2.39116,0.302673)  err_xx=0.182112  time=9.03223  timeErr=0.0267917  energy=9.46655
+[SINGLE]DetId 1652829072  nClusters=1  pos = (2.446,-2.00368)  err_xx=0.229235  time=9.16303  timeErr=0.0343766  energy=5.37415
+[SINGLE]DetId 1652843152  nClusters=1  pos = (-0.560383,1.91364)  err_xx=0.180284  time=6.71375  timeErr=0.0335172  energy=5.52979
+[SINGLE]DetId 1652885328  nClusters=1  pos = (3.01933,-1.46034)  err_xx=0.129845  time=6.79478  timeErr=0.0227975  energy=12.9639
+[SINGLE]DetId 1652885328  nClusters=1  pos = (-0.838663,0.0246887)  err_xx=0.184288  time=6.95119  timeErr=0.0331443  energy=5.69458
+[SINGLE]DetId 1652885328  nClusters=1  pos = (-0.814037,1.75999)  err_xx=0.36  time=7.08702  timeErr=0.0368742  energy=5.04456
+[SINGLE]DetId 1652908944  nClusters=1  pos = (1.50935,1.89064)  err_xx=0.186064  time=9.42548  timeErr=0.03294  energy=5.78613
+[SINGLE]DetId 1652961168  nClusters=1  pos = (1.94582,-2.12105)  err_xx=0.207477  time=8.38853  timeErr=0.0212694  energy=16.4154
+[SINGLE]DetId 1652974480  nClusters=1  pos = (-1.03701,-0.967758)  err_xx=0.180424  time=10.2533  timeErr=0.0307591  energy=6.79321
+[SINGLE]DetId 1653293968  nClusters=1  pos = (-0.594979,-0.760666)  err_xx=0.107522  time=9.04208  timeErr=0.0235728  energy=11.4716
+[SINGLE]DetId 1658282832  nClusters=1  pos = (2.20605,2.30118)  err_xx=0.206321  time=7.74517  timeErr=0.0318714  energy=6.3446
+MTDTrackingRecHitDump: total hits processed = 17  (Single-cluster: 17, Multi-cluster: 0)
+Begin processing the 10th record. Run 1, Event 10, LumiSection 1 on stream 0 at 12-Dec-2025 16:58:10.936 CET
+[DEBUG INLINE] getParameters called: id=1658078608 xError=0.6
+[SINGLE]DetId 1658078608  nClusters=1  pos = (-0.414424,1.12)  err_xx=0.36  time=3.99646  timeErr=0.0374184  energy=4.87061
+MTDTrackingRecHitDump: total hits processed = 1  (Single-cluster: 1, Multi-cluster: 0)
+12-Dec-2025 16:58:10 CET  Closed file root://eosuser.cern.ch//eos/user/p/pakrap/MTD/CMSSW_MC_CHECKS/src/RecoLocalFastTime/FTLClusterizer/output.root
