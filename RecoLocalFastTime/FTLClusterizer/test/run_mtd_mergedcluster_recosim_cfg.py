@@ -47,7 +47,9 @@ process.mtdSimMergedClusterProducer = mtdSimMergedClusterProducer.clone(
 
 process.mtdMergedClusters = cms.EDProducer("MTDMergedClusterProducer",
     btlBarrel = cms.InputTag("mtdClusters", "FTLBarrel"),
+    etlEndcap = cms.InputTag("mtdClusters", "FTLEndcap"),
     btlMergedClusterInstance = cms.string("FTLBarrel"),
+    etlMergedClusterInstance = cms.string("FTLEndcap"),
     timeThreshold = cms.double(10.0),
     energyThreshold = cms.double(1.0)
 )
